@@ -18,4 +18,5 @@ urlpatterns = [
     path("", app.views.index, name="index"),
     path("db/", app.views.db, name="db"),
     path("admin/", admin.site.urls),
+    path("sign-up/", app.views.sign_up, name="sign_up")
 ]
