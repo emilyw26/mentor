@@ -18,5 +18,6 @@ urlpatterns = [
     path("", app.views.index, name="index"),
     path("db/", app.views.db, name="db"),
     path("admin/", admin.site.urls),
-    path("sign-up/", app.views.sign_up, name="sign_up")
+    path("sign-up/", app.views.sign_up, name="sign_up"),
+    path("our-story/", app.views.our_story, name="sign_up"),
 ]
